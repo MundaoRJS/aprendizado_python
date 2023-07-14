@@ -19,7 +19,7 @@ class Requisição:
         self.nomesocial=""
 
     #Coleta de Dados do aluno Requerente
-    def dados_do_requerente(self):
+    def dados_do_requernte(self):
         self.curso = input("Curso: ").strip()
         self.matricula = input('NÚMERO DE MATRÍCULA: ').strip()
         self.telefone = input('telefone: ').strip()
@@ -28,7 +28,7 @@ class Requisição:
         self.requisição = request
         
    # Análise do requerimento solicitado
-    def verify_requests(self):
+    def verify_application(self):
         if self.requisição == "Atualização de dados pessoais" or self.requisição == "Declaração"or self.requisição == "certidão de tempo de aluno" or self.requisição == "Portador de diploma" or self.requisição == "Reabertura de matrícula" or self.requisição == 'Reintegração'or self.requisição == "Renovação de Matrícula":
             self.result = self.requisição
             print()
@@ -43,6 +43,9 @@ class Requisição:
            print('='*60)
            print()
            print('Justificativa de falta aceita. Vamos remover sua falta do sistema')
+           print()
+           self.justificativa = input('Justifique  a sua desistência do curso :\n').strip()
+           print()
         
         elif self.requisição == "cancelamento de curso":
             self.cancelamento = {
