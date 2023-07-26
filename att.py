@@ -42,7 +42,10 @@ class Requisição:
         elif self.requisição == "justificativa de falta":
            print('='*60)
            print()
-           print('Justificativa de falta aceita. Vamos remover sua falta do sistema')
+           print()
+           self.justificativa = input('Justifique  seu motivo de falta.Depois no final indique a(s) matéria(s) e o(s) horário(s):\n').strip()
+           print()
+           print('Iremos analisar a sua justificativa de falta.\nCaso seja aceita faremos a remoção da falta do sistema , do contrário entraremos em contato para explicar a situação.\nSe o senhor(a) tiver uma declaração favor entregar na CRE.')
         
         elif self.requisição == "cancelamento de curso":
             self.cancelamento = {

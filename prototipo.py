@@ -194,344 +194,344 @@ print()
 # Verificando tipo de requerimento
 
 
+class saidas:
+    if usuario == '1':
+        request=req1
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_aplication()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-if usuario == '1':
-    request=req1
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_aplication()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '2':
+        request=req2
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '2':
-    request=req2
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '3':
+        request=req3
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '3':
-    request=req3
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '4':
+        request=req4
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '4':
-    request=req4
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '5':
+        request=req5
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '5':
-    request=req5
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '6':
+        request=req6
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '6':
-    request=req6
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '7':
+        request=req7
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '7':
-    request=req7
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '8':
+        request=req8
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '8':
-    request=req8
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '9':
+        request=req9
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '9':
-    request=req9
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '10':
+        request=req10
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '10':
-    request=req10
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '11':
+        request=req11
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_application()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '11':
-    request=req11
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_application()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '12':
+        request=req12
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_aplication()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '12':
-    request=req12
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_aplication()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '13':
+        request=req13
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_aplication()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '13':
-    request=req13
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_aplication()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '14':
+        request=req14
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_aplication()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '14':
-    request=req14
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_aplication()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '15':
+        request=req15
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '15':
-    request=req15
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '16':
+        request=req16
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '16':
-    request=req16
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '17':
+        request=req17
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '17':
-    request=req17
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '18':
+        request=req18
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '18':
-    request=req18
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '19':
+        request=req19
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '19':
-    request=req19
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '20':
+        request=req20
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
+        
+    elif usuario == '21':
+        request=req21
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '20':
-    request=req20
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
-    
-elif usuario == '21':
-    request=req21
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '22':
+        request=req22
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '22':
-    request=req22
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '23':
+        request=req23
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '23':
-    request=req23
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '24':
+        request=req24
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
+        
+    elif usuario == '25':
+        request=req25
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '24':
-    request=req24
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
-    
-elif usuario == '25':
-    request=req25
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
+    elif usuario == '26':
+        request=req26
+        aluno_requerente = Requisição()
+        aluno_requerente.dados_do_requerente()
+        aluno_requerente.verify_requests()
+        print()
+        print('='*60)
+        print()
+        print(f'Aluno: {aluno_requerente.nome}')
+        print()
+        print(f'Matrícula nº: {aluno_requerente.matricula}\n')
+        print('Solicitação de requerimento Finalizada')
 
-elif usuario == '26':
-    request=req26
-    aluno_requerente = Requisição()
-    aluno_requerente.dados_do_requerente()
-    aluno_requerente.verify_requests()
-    print()
-    print('='*60)
-    print()
-    print(f'Aluno: {aluno_requerente.nome}')
-    print()
-    print(f'Matrícula nº: {aluno_requerente.matricula}\n')
-    print('Solicitação de requerimento Finalizada')
-
-else:
-    print('desculpe tente novamente')
+    else:
+        print('desculpe tente novamente')
